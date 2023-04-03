@@ -1,0 +1,81 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 80px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+nav ul {
+  list-style-type:;
+  margin: 10px;
+  padding: 40px;
+  display: flex;
+  position: sticky;
+}
+
+nav li {
+  margin-right: 50px;
+}
+
+nav a {
+  color: rgb(65, 247, 10);
+  text-decoration: none;
+}
+.logo img {
+  height:150px;
+  width: auto;
+  border-radius:50%;
+}
+.cart-container{
+  width: 70%;
+height: 85%;
+background-color: #ffffff;
+border-radius: 20px;
+box-shadow: 0px 25px 40px 
+#1687d933;
+
+}
+
+main {
+  margin: 40px;
+  display:-webkit-inline-flex;
+  flex-wrap:grid;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.book {
+  width: 30%;
+  margin-bottom: 1px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.book img {
+  width: 200px;
+  height: auto;
+}
+
+.book h3 {
+  margin-top: 0;
+}
+
+.book p:last-child {
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #3a0ae9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor 
+}
